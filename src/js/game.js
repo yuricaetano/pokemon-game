@@ -32,7 +32,7 @@ const createEnemy = () => {
     const margin = 50;
     const x = Math.random() * (canvas.width - 2 * margin) + margin;
     const y = Math.random() * (canvas.height - 2 * margin) + margin;
-    return new Enemy(x, y, 28, 28, 5, 'public/assets/imgs/pokeball.png');
+    return new Enemy(x, y, 28, 28, 5, '/assets/imgs/pokeball.png');
 };
 
 const init = async () => {
@@ -48,9 +48,9 @@ const init = async () => {
     }
 
     // Inicializa os sons
-    themeSound = new Audio('public/assets/sounds/theme.mp3');
-    gameoverSound = new Audio('public/assets/sounds/gameover.mp3');
-    pickupSound = new Audio('public/assets/sounds/pickup.mp3');
+    themeSound = new Audio('/assets/sounds/theme.mp3');
+    gameoverSound = new Audio('/assets/sounds/gameover.mp3');
+    pickupSound = new Audio('/assets/sounds/pickup.mp3');
 
     // Reproduz música de fundo
     themeSound.loop = true;
@@ -64,7 +64,7 @@ const init = async () => {
     };
 
     // Carrega a imagem de fundo
-    backgroundImg = await loadImage('public/assets/imgs/grass.png');
+    backgroundImg = await loadImage('/assets/imgs/grass.png');
 
     // Inicializa os inimigos (Pokébolas)
     enemies = enemies.map(() => createEnemy());
@@ -116,7 +116,7 @@ const loop = () => {
                 ...Object.values(createLightning()),
                 32, // Largura do raio
                 32, // Altura do raio
-                'public/assets/imgs/thunder.png'
+                '/assets/imgs/thunder.png'
             );
         }
 
