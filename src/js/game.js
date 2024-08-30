@@ -157,7 +157,7 @@ const showGameOverMessage = () => {
     ctx.font = "48px Arial";
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
-    ctx.fillText("Game Over", canvas.width / 2, canvas.height / 2);
+    ctx.fillText("Game Over", canvas.width / 2, canvas.height / 2 - 50);
 
     // Para a música de fundo e reproduz o som de game over
     themeSound.pause();
