@@ -4,7 +4,7 @@ import { loadImage } from "/src/js/loaderAssets.js";
 export default class Pikachu extends Circle {
     constructor(x, y, velocity = 10, width, height, FRAMES = 60) {
         super(x, y, 0);
-        loadImage('public/assets/imgs/pikachu.png').then(img => this.img = img);
+        loadImage('/assets/imgs/pikachu.png').then(img => this.img = img);
         
         this.cellWidth = 64; 
         this.cellHeight = 64;
