@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="public/assets/imgs/pikachu_icon.png">
+	<!-- Google Font Press Start 2P -->
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<!-- NES.css -->
+	<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="/public/css/styles.css">
+	<title>Pokémon Game</title>
+</head>
+
+<body>
+	<div id="game-container">
+		<p id="startMessage">Ajude o Pikachu a escapar das pokebolas!</p>
+		<button id="startButton">Start</button>
+		<button id="restartButton" style="display: none;">Restart</button>
+	</div>
+
+	<canvas class="canvasHidden" width="600" height="400" tabindex="1">
+		Seu navegador não suporta a tag canvas!
+	</canvas>
+	<script type='module' src="src/js/main.js"></script>
+</body>
+
+</html>

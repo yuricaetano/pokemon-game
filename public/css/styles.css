@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/public/assets/imgs/bg_pikachu.gif');
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+    overflow: hidden;
+}
+
+p{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+}
+
+#game-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);   
+}
+
+#startScreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 3px solid #000;
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#startButton {
+    width: 150px; /* Aumenta o tamanho do botão */
+    height: 50px; /* Aumenta a altura do botão */
+    font-size: 20px; /* Ajusta o tamanho da fonte */
+    transition: transform 0.1s; /* Adiciona transição para o efeito de clique */
+}
+
+#startButton:active {
+    transform: scale(0.95); /* Efeito de clique */
+}
+
+#restartButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    display: none; /* Inicialmente escondido */
+    transition: transform 0.1s; 
+}
+
+#restartButton:active {
+    transform: scale(0.95); /* Efeito de clique */
+}
+
+.canvasHidden{
+    display: none;
+}
