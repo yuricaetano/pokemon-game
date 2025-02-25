@@ -11,26 +11,11 @@ Pokémon Game é um jogo simples e divertido, inspirado nos clássicos jogos de 
 - Evite as Pokébolas para não perder o jogo.
 - Sons de fundo, efeitos de coleta, e música de game over para melhorar a experiência de jogo.
 - Tela de início com botão "Start" para iniciar o jogo.
-- Botão "Restart" para reiniciar o jogo após o game over.
-
-
-
-## Instalação
- 1. Clone o repositório
- git clone https://github.com/seu-usuario/pikachu-game.git
-
-2. Entre no diretório do projeto
-cd pokemon-game
-
-3. Instale as dependências
-Se você estiver utilizando bibliotecas de terceiros, instale-as com:
-npm install
+- Botão "Restart" para reiniciar o jogo após o game over. (Essa funcionalidade não está operando como desejado, por isso recomendo que reinicie a página).
 
 4. Inicie o jogo
-Para iniciar o jogo, abra o arquivo index.html no seu navegador ou utilize um servidor local:
-npx http-server.
-
-Então, acesse http://localhost:8080 no seu navegador.
+Para iniciar o jogo, basta acessar o link abaixo:
+https://pokemon-jogo.netlify.app/
 
 ## Como Jogar
 - Movimento: Utilize as teclas de direção (setas) para mover o Pikachu pelo cenário.
