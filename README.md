@@ -14,8 +14,7 @@ Pokémon Game é um jogo simples e divertido, inspirado nos clássicos jogos de 
 - Botão "Restart" para reiniciar o jogo após o game over. (Essa funcionalidade não está operando como desejado, por isso recomendo que reinicie a página).
 
 4. Inicie o jogo
-Para iniciar o jogo, basta acessar o link abaixo:
-https://pokemon-jogo.netlify.app/
+Para iniciar o jogo, basta acessar este link 👉 https://pokemon-jogo.netlify.app/
 
 ## Como Jogar
 - Movimento: Utilize as teclas de direção (setas) para mover o Pikachu pelo cenário.
